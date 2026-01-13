@@ -11,12 +11,6 @@
     "dark": "#e22901"
   },
   "favicon": "/favicon.svg",
-  "versions": [
-    "en",
-    "cn",
-    "jp",
-    "ko"
-  ],
   "languageSelector": {
     "enabled": true
   },
@@ -74,6 +68,7 @@
                       "learn/advanced-introduction/merged-mining/energy-efficiency"
                     ]
                   },
+                  "learn/advanced-introduction/soap",
                   "learn/advanced-introduction/multithreaded-execution",
                   {
                     "group": "Interoperability",
@@ -661,22 +656,21 @@
                 "group": "Client",
                 "pages": [
                   "guides/client/node",
+                  "guides/client/solo-mining",
                   "guides/client/node-monitoring",
-                  "guides/client/dePool",
-                  "guides/client/stratum",
                   "guides/client/local-node"
                 ]
               },
               {
                 "group": "Miner",
                 "pages": [
-                  "guides/miner/hiveos-depool-flight-sheet",
+                  "guides/miner/sha-scrypt-mining",
                   "guides/miner/hiveos-flight-sheet",
-                  "guides/miner/hiveos",
                   "guides/miner/ubuntu",
                   "guides/miner/clore-ai",
                   "guides/miner/docker",
                   "guides/miner/pools-software"
+                  
                 ]
               },
               {
@@ -773,6 +767,7 @@
                       "cn/learn/advanced-introduction/merged-mining/energy-efficiency"
                     ]
                   },
+                  "cn/learn/advanced-introduction/soap",
                   {
                     "group": "互操作性",
                     "pages": [
@@ -1351,8 +1346,8 @@
                 "group": "客户端",
                 "pages": [
                   "cn/guides/client/node",
+                  "cn/guides/client/solo-mining",
                   "cn/guides/client/node-monitoring",
-                  "cn/guides/client/dePool",
                   "cn/guides/client/stratum",
                   "cn/guides/client/local-node"
                 ]
@@ -1360,9 +1355,8 @@
               {
                 "group": "矿工",
                 "pages": [
-                  "cn/guides/miner/hiveos-depool-flight-sheet",
+                  "cn/guides/miner/sha-scrypt-mining",
                   "cn/guides/miner/hiveos-flight-sheet",
-                  "cn/guides/miner/hiveos",
                   "cn/guides/miner/ubuntu",
                   "cn/guides/miner/clore-ai",
                   "cn/guides/miner/docker",
@@ -1454,6 +1448,7 @@
                       "jp/learn/advanced-introduction/merged-mining/energy-efficiency"
                     ]
                   },
+                  "jp/learn/advanced-introduction/soap",
                   "jp/learn/advanced-introduction/multithreaded-execution",
                   {
                     "group": "相互運用性",
@@ -2040,8 +2035,8 @@
                 "group": "クライアント",
                 "pages": [
                   "jp/guides/client/node",
+                  "jp/guides/client/solo-mining",
                   "jp/guides/client/node-monitoring",
-                  "jp/guides/client/dePool",
                   "jp/guides/client/stratum",
                   "jp/guides/client/local-node"
                 ]
@@ -2049,9 +2044,8 @@
               {
                 "group": "マイナー",
                 "pages": [
-                  "jp/guides/miner/hiveos-depool-flight-sheet",
+                  "jp/guides/miner/sha-scrypt-mining",
                   "jp/guides/miner/hiveos-flight-sheet",
-                  "jp/guides/miner/hiveos",
                   "jp/guides/miner/ubuntu",
                   "jp/guides/miner/clore-ai",
                   "jp/guides/miner/docker",
@@ -2151,6 +2145,7 @@
                       "ko/learn/advanced-introduction/merged-mining/energy-efficiency"
                     ]
                   },
+                  "ko/learn/advanced-introduction/soap",
                   {
                     "group": "상호운용성",
                     "pages": [
@@ -2729,8 +2724,8 @@
                 "group": "클라이언트",
                 "pages": [
                   "ko/guides/client/node",
+                  "ko/guides/client/solo-mining",
                   "ko/guides/client/node-monitoring",
-                  "ko/guides/client/dePool",
                   "ko/guides/client/stratum",
                   "ko/guides/client/local-node"
                 ]
@@ -2738,9 +2733,8 @@
               {
                 "group": "마이너",
                 "pages": [
-                  "ko/guides/miner/hiveos-depool-flight-sheet",
+                  "ko/guides/miner/sha-scrypt-mining",
                   "ko/guides/miner/hiveos-flight-sheet",
-                  "ko/guides/miner/hiveos",
                   "ko/guides/miner/ubuntu",
                   "ko/guides/miner/clore-ai",
                   "ko/guides/miner/docker",
